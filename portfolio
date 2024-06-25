@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="viewport" content="width=device-width,">
+        <title>NATNAEL OFFICIAL</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>     
+    </head>
+    <body>
+        <header class="header">
+            <a href="" class="logo">EL NATHAN</a>
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About Me</a>
+                <a href="#">Service</a>
+                <a href="#">Collection</a>
+                <a href="#">Contact Me</a>
+            </nav>
+            <hr>
+        </header>
+        <section class="home">
+            <div class="text-content">
+                <h1>HI, I'm Natnael Gonta</h1>
+                <h3>full stack web developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat asperiores perferendis illum, reiciendis inventore doloremque quae voluptas dolorem modi, vero nulla, laborum quos voluptatem repellendus beatae quibusdam repudiandae error?</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#" id=""><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"><i class='bx bxl-telegram'></i></a>
+                </div>
+                <div class="btn-box">
+                    <button class="btn">Download CV</button>
+                    <button class="btn">Let's Talk</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="img3.png" alt="">
+            </div>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
 
+
+
+
+css code
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Poppins;
+    outline: none;
+    border: none;
+    color: #ffffff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.5rem;
+    color: #00d0ff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar a{
+    color: #00d0ff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-left: 4rem;
+    display: inline-block;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #fff;
+
+}
+body {
+    background: #080357;
+}
+.home{
+    padding: 10rem 9% 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.text-content {
+    max-width: 60rem;
+}
+.text-content h1{
+    font-size: 5.6rem;
+    font-weight: 600;
+    color: #00d0ff;
+}
+.text-content h3{
+    font-size: 3.2rem;
+}
+.text-content p{
+    font-size: 1.6rem;
+}
+.home img{
+    width: 28vw;
+}
+.social-media{
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    text-decoration: none;
+    background: transparent;
+    border: 2px solid #00d0ff;
+    color: #00d0ff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1.5rem 3rem 0;
+    border-radius: 50%;
+    transition: ,5s ease;
+}
+.social-media i:hover{
+    background: #00d0ff;
+    color: #1b1f2a;
+    box-shadow: 0 0 .2rem #00d0ff,
+    0 0 1rem #00d0ff
+    0 0 2rem #00d0ff;
+}
